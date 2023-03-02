@@ -9,7 +9,7 @@
        
        public static function connect(){
              try{
-                    self::$connection = new PDO ("mysqli : host= ".self::$dbHost.";dbname= ".self::$dbName,self::$dbUser,self::$dbUserPassword);
+                    self::$connection = new PDO ("  mysql : host= ".self::$dbHost.";dbname= ".self::$dbName,self::$dbUser,self::$dbUserPassword);
                 }
             catch(PDOException $e){
                     die ($e->getMessage());
