@@ -1,10 +1,10 @@
 <?php
     class Database{
 
-       private static $dbHost = "127.0.0.1";
-       private static $dbName = "u709452983_burgercode";
-       private static $dbUser = "u709452983_burger";
-       private static $dbUserPassword = "Burger29!";
+       private static $dbHost = "localhost";
+       private static $dbName = "burger code";
+       private static $dbUser = "root";
+       private static $dbUserPassword = "";
        private static $connection = null;
        
        public static function connect(){

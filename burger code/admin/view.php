@@ -1,4 +1,8 @@
 <?php
+session_start();
+if (!isset($_SESSION["email"])){
+  header("Location: login.php");
+}
     require 'database.php';
 
     if(!empty($_GET['id'])) {

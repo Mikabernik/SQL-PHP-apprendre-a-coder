@@ -13,12 +13,13 @@
     </head>
     <body>
         <div class="container site">
-           
+            
             <h1 class="text-logo"><span class="bi-shop"></span> Burger Code <span class="bi-shop"></span></h1>
             
             <?php
-				require 'admin/database.php';
-			 
+            
+				require 'admin/databaselocal.php';
+                
                 echo '<nav>
                         <ul class="nav nav-pills" role="tablist">';
 
